@@ -51,6 +51,12 @@
     <Compile Include="ConvertBinary.Designer.cs">
       <DependentUpon>ConvertBinary.cs</DependentUpon>
     </Compile>
+    <Compile Include="CalculatorInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalculatorInfo.Designer.cs">
+      <DependentUpon>CalculatorInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +65,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CalculatorInfo.resx">
+      <DependentUpon>CalculatorInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ConvertBinary.resx">
       <DependentUpon>ConvertBinary.cs</DependentUpon>
     </EmbeddedResource>
