@@ -62,11 +62,20 @@
 			this.n = new System.Windows.Forms.Button();
 			this.label2 = new System.Windows.Forms.Label();
 			this.memory = new System.Windows.Forms.RichTextBox();
+			this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+			this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.calculartorInfoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.convertBinaryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.percent = new System.Windows.Forms.Button();
+			this.label3 = new System.Windows.Forms.Label();
+			this.listBoxCurrency = new System.Windows.Forms.ListBox();
+			this.button1 = new System.Windows.Forms.Button();
+			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// history
 			// 
-			this.history.Location = new System.Drawing.Point(348, 42);
+			this.history.Location = new System.Drawing.Point(348, 33);
 			this.history.Name = "history";
 			this.history.Size = new System.Drawing.Size(159, 119);
 			this.history.TabIndex = 0;
@@ -76,7 +85,7 @@
 			// 
 			this.label1.AutoSize = true;
 			this.label1.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(351, 11);
+			this.label1.Location = new System.Drawing.Point(348, 2);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(87, 28);
 			this.label1.TabIndex = 1;
@@ -85,7 +94,7 @@
 			// result
 			// 
 			this.result.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.result.Location = new System.Drawing.Point(12, 12);
+			this.result.Location = new System.Drawing.Point(12, 33);
 			this.result.Name = "result";
 			this.result.Size = new System.Drawing.Size(330, 38);
 			this.result.TabIndex = 2;
@@ -94,7 +103,7 @@
 			// MC
 			// 
 			this.MC.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.MC.Location = new System.Drawing.Point(13, 57);
+			this.MC.Location = new System.Drawing.Point(13, 73);
 			this.MC.Name = "MC";
 			this.MC.Size = new System.Drawing.Size(50, 49);
 			this.MC.TabIndex = 3;
@@ -105,7 +114,7 @@
 			// Mplus
 			// 
 			this.Mplus.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.Mplus.Location = new System.Drawing.Point(69, 57);
+			this.Mplus.Location = new System.Drawing.Point(69, 73);
 			this.Mplus.Name = "Mplus";
 			this.Mplus.Size = new System.Drawing.Size(50, 49);
 			this.Mplus.TabIndex = 4;
@@ -116,7 +125,7 @@
 			// Mminus
 			// 
 			this.Mminus.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.Mminus.Location = new System.Drawing.Point(125, 57);
+			this.Mminus.Location = new System.Drawing.Point(125, 73);
 			this.Mminus.Name = "Mminus";
 			this.Mminus.Size = new System.Drawing.Size(50, 49);
 			this.Mminus.TabIndex = 5;
@@ -127,7 +136,7 @@
 			// number7
 			// 
 			this.number7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.number7.Location = new System.Drawing.Point(13, 112);
+			this.number7.Location = new System.Drawing.Point(13, 133);
 			this.number7.Name = "number7";
 			this.number7.Size = new System.Drawing.Size(50, 49);
 			this.number7.TabIndex = 6;
@@ -138,7 +147,7 @@
 			// number8
 			// 
 			this.number8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.number8.Location = new System.Drawing.Point(69, 112);
+			this.number8.Location = new System.Drawing.Point(68, 133);
 			this.number8.Name = "number8";
 			this.number8.Size = new System.Drawing.Size(50, 49);
 			this.number8.TabIndex = 7;
@@ -149,7 +158,7 @@
 			// number9
 			// 
 			this.number9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.number9.Location = new System.Drawing.Point(125, 112);
+			this.number9.Location = new System.Drawing.Point(124, 133);
 			this.number9.Name = "number9";
 			this.number9.Size = new System.Drawing.Size(50, 49);
 			this.number9.TabIndex = 8;
@@ -160,7 +169,7 @@
 			// number4
 			// 
 			this.number4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.number4.Location = new System.Drawing.Point(13, 167);
+			this.number4.Location = new System.Drawing.Point(13, 188);
 			this.number4.Name = "number4";
 			this.number4.Size = new System.Drawing.Size(50, 49);
 			this.number4.TabIndex = 9;
@@ -171,7 +180,7 @@
 			// number5
 			// 
 			this.number5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.number5.Location = new System.Drawing.Point(69, 167);
+			this.number5.Location = new System.Drawing.Point(69, 188);
 			this.number5.Name = "number5";
 			this.number5.Size = new System.Drawing.Size(50, 49);
 			this.number5.TabIndex = 10;
@@ -182,7 +191,7 @@
 			// number6
 			// 
 			this.number6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.number6.Location = new System.Drawing.Point(125, 167);
+			this.number6.Location = new System.Drawing.Point(125, 190);
 			this.number6.Name = "number6";
 			this.number6.Size = new System.Drawing.Size(50, 49);
 			this.number6.TabIndex = 11;
@@ -193,7 +202,7 @@
 			// number1
 			// 
 			this.number1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.number1.Location = new System.Drawing.Point(13, 222);
+			this.number1.Location = new System.Drawing.Point(12, 245);
 			this.number1.Name = "number1";
 			this.number1.Size = new System.Drawing.Size(50, 49);
 			this.number1.TabIndex = 12;
@@ -204,7 +213,7 @@
 			// number2
 			// 
 			this.number2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.number2.Location = new System.Drawing.Point(69, 222);
+			this.number2.Location = new System.Drawing.Point(69, 245);
 			this.number2.Name = "number2";
 			this.number2.Size = new System.Drawing.Size(50, 49);
 			this.number2.TabIndex = 13;
@@ -215,7 +224,7 @@
 			// number3
 			// 
 			this.number3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.number3.Location = new System.Drawing.Point(125, 222);
+			this.number3.Location = new System.Drawing.Point(125, 245);
 			this.number3.Name = "number3";
 			this.number3.Size = new System.Drawing.Size(50, 49);
 			this.number3.TabIndex = 14;
@@ -226,7 +235,7 @@
 			// CE
 			// 
 			this.CE.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.CE.Location = new System.Drawing.Point(181, 57);
+			this.CE.Location = new System.Drawing.Point(181, 73);
 			this.CE.Name = "CE";
 			this.CE.Size = new System.Drawing.Size(50, 49);
 			this.CE.TabIndex = 15;
@@ -237,7 +246,7 @@
 			// plus
 			// 
 			this.plus.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.plus.Location = new System.Drawing.Point(181, 112);
+			this.plus.Location = new System.Drawing.Point(180, 133);
 			this.plus.Name = "plus";
 			this.plus.Size = new System.Drawing.Size(50, 49);
 			this.plus.TabIndex = 16;
@@ -248,7 +257,7 @@
 			// minus
 			// 
 			this.minus.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.minus.Location = new System.Drawing.Point(181, 167);
+			this.minus.Location = new System.Drawing.Point(181, 190);
 			this.minus.Name = "minus";
 			this.minus.Size = new System.Drawing.Size(50, 49);
 			this.minus.TabIndex = 17;
@@ -259,7 +268,7 @@
 			// multiply
 			// 
 			this.multiply.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.multiply.Location = new System.Drawing.Point(181, 222);
+			this.multiply.Location = new System.Drawing.Point(181, 245);
 			this.multiply.Name = "multiply";
 			this.multiply.Size = new System.Drawing.Size(50, 49);
 			this.multiply.TabIndex = 18;
@@ -270,7 +279,7 @@
 			// C
 			// 
 			this.C.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.C.Location = new System.Drawing.Point(237, 57);
+			this.C.Location = new System.Drawing.Point(237, 73);
 			this.C.Name = "C";
 			this.C.Size = new System.Drawing.Size(50, 49);
 			this.C.TabIndex = 19;
@@ -281,7 +290,7 @@
 			// expo2
 			// 
 			this.expo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.expo2.Location = new System.Drawing.Point(237, 112);
+			this.expo2.Location = new System.Drawing.Point(236, 133);
 			this.expo2.Name = "expo2";
 			this.expo2.Size = new System.Drawing.Size(50, 49);
 			this.expo2.TabIndex = 20;
@@ -292,7 +301,7 @@
 			// expo3
 			// 
 			this.expo3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.expo3.Location = new System.Drawing.Point(237, 167);
+			this.expo3.Location = new System.Drawing.Point(237, 188);
 			this.expo3.Name = "expo3";
 			this.expo3.Size = new System.Drawing.Size(50, 49);
 			this.expo3.TabIndex = 21;
@@ -303,7 +312,7 @@
 			// expoy
 			// 
 			this.expoy.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.expoy.Location = new System.Drawing.Point(237, 222);
+			this.expoy.Location = new System.Drawing.Point(237, 243);
 			this.expoy.Name = "expoy";
 			this.expoy.Size = new System.Drawing.Size(50, 49);
 			this.expoy.TabIndex = 22;
@@ -314,7 +323,7 @@
 			// DEL
 			// 
 			this.DEL.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.DEL.Location = new System.Drawing.Point(292, 57);
+			this.DEL.Location = new System.Drawing.Point(292, 73);
 			this.DEL.Name = "DEL";
 			this.DEL.Size = new System.Drawing.Size(50, 49);
 			this.DEL.TabIndex = 23;
@@ -325,7 +334,7 @@
 			// expo
 			// 
 			this.expo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.expo.Location = new System.Drawing.Point(292, 167);
+			this.expo.Location = new System.Drawing.Point(292, 188);
 			this.expo.Name = "expo";
 			this.expo.Size = new System.Drawing.Size(50, 49);
 			this.expo.TabIndex = 24;
@@ -336,7 +345,7 @@
 			// expo10
 			// 
 			this.expo10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.expo10.Location = new System.Drawing.Point(292, 112);
+			this.expo10.Location = new System.Drawing.Point(292, 133);
 			this.expo10.Name = "expo10";
 			this.expo10.Size = new System.Drawing.Size(50, 49);
 			this.expo10.TabIndex = 25;
@@ -347,7 +356,7 @@
 			// mod
 			// 
 			this.mod.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.mod.Location = new System.Drawing.Point(293, 222);
+			this.mod.Location = new System.Drawing.Point(293, 243);
 			this.mod.Name = "mod";
 			this.mod.Size = new System.Drawing.Size(50, 49);
 			this.mod.TabIndex = 26;
@@ -358,9 +367,9 @@
 			// equal
 			// 
 			this.equal.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.equal.Location = new System.Drawing.Point(237, 277);
+			this.equal.Location = new System.Drawing.Point(292, 298);
 			this.equal.Name = "equal";
-			this.equal.Size = new System.Drawing.Size(106, 49);
+			this.equal.Size = new System.Drawing.Size(51, 49);
 			this.equal.TabIndex = 27;
 			this.equal.Text = "=";
 			this.equal.UseVisualStyleBackColor = true;
@@ -370,7 +379,7 @@
 			// divide
 			// 
 			this.divide.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.divide.Location = new System.Drawing.Point(181, 277);
+			this.divide.Location = new System.Drawing.Point(181, 300);
 			this.divide.Name = "divide";
 			this.divide.Size = new System.Drawing.Size(50, 49);
 			this.divide.TabIndex = 28;
@@ -381,7 +390,7 @@
 			// dot
 			// 
 			this.dot.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.dot.Location = new System.Drawing.Point(125, 277);
+			this.dot.Location = new System.Drawing.Point(125, 300);
 			this.dot.Name = "dot";
 			this.dot.Size = new System.Drawing.Size(50, 49);
 			this.dot.TabIndex = 29;
@@ -392,7 +401,7 @@
 			// number0
 			// 
 			this.number0.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.number0.Location = new System.Drawing.Point(68, 277);
+			this.number0.Location = new System.Drawing.Point(68, 300);
 			this.number0.Name = "number0";
 			this.number0.Size = new System.Drawing.Size(50, 49);
 			this.number0.TabIndex = 30;
@@ -403,7 +412,7 @@
 			// n
 			// 
 			this.n.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-			this.n.Location = new System.Drawing.Point(12, 277);
+			this.n.Location = new System.Drawing.Point(12, 300);
 			this.n.Name = "n";
 			this.n.Size = new System.Drawing.Size(50, 49);
 			this.n.TabIndex = 31;
@@ -415,7 +424,7 @@
 			// 
 			this.label2.AutoSize = true;
 			this.label2.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(351, 167);
+			this.label2.Location = new System.Drawing.Point(348, 155);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(89, 28);
 			this.label2.TabIndex = 32;
@@ -424,17 +433,98 @@
 			// 
 			// memory
 			// 
-			this.memory.Location = new System.Drawing.Point(348, 198);
+			this.memory.Location = new System.Drawing.Point(348, 186);
 			this.memory.Name = "memory";
-			this.memory.Size = new System.Drawing.Size(159, 122);
+			this.memory.Size = new System.Drawing.Size(159, 51);
 			this.memory.TabIndex = 33;
 			this.memory.Text = "";
+			this.memory.TextChanged += new System.EventHandler(this.memory_TextChanged);
+			// 
+			// menuStrip1
+			// 
+			this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuToolStripMenuItem});
+			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+			this.menuStrip1.Name = "menuStrip1";
+			this.menuStrip1.Size = new System.Drawing.Size(519, 24);
+			this.menuStrip1.TabIndex = 34;
+			this.menuStrip1.Text = "menuStrip1";
+			// 
+			// menuToolStripMenuItem
+			// 
+			this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.calculartorInfoToolStripMenuItem,
+            this.convertBinaryToolStripMenuItem});
+			this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
+			this.menuToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
+			this.menuToolStripMenuItem.Text = "Menu";
+			// 
+			// calculartorInfoToolStripMenuItem
+			// 
+			this.calculartorInfoToolStripMenuItem.Name = "calculartorInfoToolStripMenuItem";
+			this.calculartorInfoToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+			this.calculartorInfoToolStripMenuItem.Text = "CalculartorInfo";
+			this.calculartorInfoToolStripMenuItem.Click += new System.EventHandler(this.calculartorInfoToolStripMenuItem_Click);
+			// 
+			// convertBinaryToolStripMenuItem
+			// 
+			this.convertBinaryToolStripMenuItem.Name = "convertBinaryToolStripMenuItem";
+			this.convertBinaryToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+			this.convertBinaryToolStripMenuItem.Text = "ConvertBinary";
+			this.convertBinaryToolStripMenuItem.Click += new System.EventHandler(this.convertBinaryToolStripMenuItem_Click);
+			// 
+			// percent
+			// 
+			this.percent.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+			this.percent.Location = new System.Drawing.Point(235, 300);
+			this.percent.Name = "percent";
+			this.percent.Size = new System.Drawing.Size(51, 49);
+			this.percent.TabIndex = 35;
+			this.percent.Text = "%";
+			this.percent.UseVisualStyleBackColor = true;
+			// 
+			// label3
+			// 
+			this.label3.AutoSize = true;
+			this.label3.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label3.Location = new System.Drawing.Point(356, 245);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(151, 28);
+			this.label3.TabIndex = 36;
+			this.label3.Text = "Convert currency";
+			// 
+			// listBoxCurrency
+			// 
+			this.listBoxCurrency.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+			this.listBoxCurrency.FormattingEnabled = true;
+			this.listBoxCurrency.ItemHeight = 20;
+			this.listBoxCurrency.Items.AddRange(new object[] {
+            "THB -> USD",
+            "USD -> THB"});
+			this.listBoxCurrency.Location = new System.Drawing.Point(379, 276);
+			this.listBoxCurrency.Name = "listBoxCurrency";
+			this.listBoxCurrency.Size = new System.Drawing.Size(103, 44);
+			this.listBoxCurrency.TabIndex = 37;
+			// 
+			// button1
+			// 
+			this.button1.Location = new System.Drawing.Point(379, 323);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(103, 23);
+			this.button1.TabIndex = 38;
+			this.button1.Text = "Convert";
+			this.button1.UseVisualStyleBackColor = true;
+			this.button1.Click += new System.EventHandler(this.button1_Click);
 			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(519, 332);
+			this.ClientSize = new System.Drawing.Size(519, 361);
+			this.Controls.Add(this.button1);
+			this.Controls.Add(this.listBoxCurrency);
+			this.Controls.Add(this.label3);
+			this.Controls.Add(this.percent);
 			this.Controls.Add(this.memory);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.n);
@@ -469,9 +559,13 @@
 			this.Controls.Add(this.result);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.history);
+			this.Controls.Add(this.menuStrip1);
+			this.MainMenuStrip = this.menuStrip1;
 			this.Name = "Form1";
 			this.Text = "Calculator";
 			this.Load += new System.EventHandler(this.Form1_Load);
+			this.menuStrip1.ResumeLayout(false);
+			this.menuStrip1.PerformLayout();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -513,6 +607,14 @@
 		private System.Windows.Forms.Button n;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.RichTextBox memory;
+		private System.Windows.Forms.MenuStrip menuStrip1;
+		private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem calculartorInfoToolStripMenuItem;
+		private System.Windows.Forms.ToolStripMenuItem convertBinaryToolStripMenuItem;
+		private System.Windows.Forms.Button percent;
+		private System.Windows.Forms.Label label3;
+		private System.Windows.Forms.ListBox listBoxCurrency;
+		private System.Windows.Forms.Button button1;
 	}
 }
 

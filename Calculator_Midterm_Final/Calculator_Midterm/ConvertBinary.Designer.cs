@@ -54,6 +54,7 @@
 			this.label3.Size = new System.Drawing.Size(55, 13);
 			this.label3.TabIndex = 10;
 			this.label3.Text = "-------------->";
+			this.label3.Click += new System.EventHandler(this.label3_Click);
 			// 
 			// label2
 			// 
@@ -63,6 +64,7 @@
 			this.label2.Size = new System.Drawing.Size(44, 13);
 			this.label2.TabIndex = 9;
 			this.label2.Text = "Number";
+			this.label2.Click += new System.EventHandler(this.label2_Click);
 			// 
 			// label1
 			// 
@@ -72,6 +74,7 @@
 			this.label1.Size = new System.Drawing.Size(36, 13);
 			this.label1.TabIndex = 8;
 			this.label1.Text = "Binary";
+			this.label1.Click += new System.EventHandler(this.label1_Click);
 			// 
 			// textBox2
 			// 
@@ -79,6 +82,7 @@
 			this.textBox2.Name = "textBox2";
 			this.textBox2.Size = new System.Drawing.Size(100, 20);
 			this.textBox2.TabIndex = 7;
+			this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
 			// 
 			// textBox1
 			// 
@@ -86,6 +90,7 @@
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(100, 20);
 			this.textBox1.TabIndex = 6;
+			this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
 			// 
 			// ConvertBinary
 			// 

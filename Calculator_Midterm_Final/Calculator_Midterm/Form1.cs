@@ -405,5 +405,49 @@ namespace Calculator_Midterm
 		{
 
 		}
+
+		private void calculartorInfoToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			this.Enabled = false;
+			CalculatorInfo f2 = new CalculatorInfo();
+			f2.ShowDialog();
+			this.Enabled = true;
+		}
+
+		private void convertBinaryToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			this.Enabled = false;
+			ConvertBinary f2 = new ConvertBinary();
+			f2.ShowDialog();
+			this.Enabled = true;
+		}
+
+		private void memory_TextChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			/*
+			num1 = input;
+			if (listBoxCurrency.SelectedIndex == 0)
+			{
+				num1 = Convert.ToDouble(result.Text);
+				result_value = num1 / 30.3;
+				num1 = 0;
+				result.Text = Convert.ToString(result_value);
+				//CurOp.Text = "US";
+			}
+			if (listBoxCurrency.SelectedIndex == 1)
+			{
+				num1 = Convert.ToDouble(result.Text);
+				result_value = num1 * 30.3;
+				value = 0;
+				result.Text = Convert.ToString(result_value);
+				//CurOp.Text = "TH";
+			}
+			*/
+		}
 	}
 }
